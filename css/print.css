@@ -154,7 +154,7 @@ p, td, th, dd, li, small, span { color: #334155 !important; }
    tamaño fijo de carnet individual de arriba, conservando su proporción. */
 .cred-item .escarapela { width: auto !important; height: auto !important; aspect-ratio: 53.98 / 85.6 !important; }
 
-/* Álbum: cinco tarjetas por fila, así las 10 caben en una sola hoja carta. */
+/* Álbum: cinco tarjetas por fila, las 20 piezas reparten en varias filas. */
 .album-rejilla {
   display: grid !important;
   grid-template-columns: repeat(5, 1fr) !important;

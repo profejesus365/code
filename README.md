@@ -7,7 +7,7 @@ Una sola aplicación web con una **portada narrativa** y **dos paneles**:
   Estudiante.
 - **Panel del estudiante** — entra con su código y ve su progreso convertido en juego:
   XP, los 10 niveles hacker, insignias, ranking, boletines, escarapela digital y su álbum
-  de tarjetas coleccionables.
+  de 20 piezas de equipo hacker por coleccionar.
 - **Panel del docente** — entra directo (sin código) y gestiona todo: estudiantes, notas
   por misión y periodo, estadísticas, ranking, escarapelas, el álbum del curso, informes,
   datos de la institución y copias de seguridad.
@@ -104,7 +104,7 @@ Con la cohorte de demostración incluida puedes probar con **`CODE-0001`** … *
 | **Notas** | Se elige periodo y **misión (1 a 6)**, y se califican sus cuatro actividades. Cada nota se guarda al escribirla; Enter y las flechas mueven entre celdas. Las pestañas de misión muestran el % calificado. Se renombran misiones y actividades, se ajustan ponderaciones y se exporta el periodo completo a Excel |
 | **Ranking** | Clasificación completa con podio, filtros de grado, grupo, métrica y rango, y exportación a Excel |
 | **Escarapelas** | Las credenciales de todo el curso, siempre al día con lo último que registraste. Toca una para verla en grande. Se descargan en **PNG, PDF e HTML interactivo**, sueltas o en lote (el lote de PNG viaja como un único `.zip`) |
-| **Álbum** | Las 10 tarjetas coleccionables de cada estudiante (una por nivel hacker), para ver quién lleva cuántas y abrir el álbum completo de cualquiera |
+| **Álbum** | Las 20 piezas de equipo hacker que cada estudiante va desbloqueando con su XP, para ver quién lleva cuántas y abrir el álbum completo de cualquiera |
 | **Informes** | Informe académico en **hoja carta vertical**: cabecera institucional, detalle de las seis misiones con sus cuatro actividades, consolidado del año, valoración, escala institucional y pie con docente, área y fecha. Por periodo o general, en **PDF** y **HTML interactivo**, de un estudiante o de todo el curso |
 | **Consola** | Datos de la institución, ponderaciones, carpeta de datos, respaldos, diagnóstico y vaciado de la base |
 
@@ -192,7 +192,7 @@ es él quien manda, y releerlo le borraría lo que acaba de escribir.
 |---|---|
 | **Perfil** | Avatar con anillo de nivel, XP animada, rango hacker, ánimo, seis KPIs, mapa de las 16 misiones del año, línea de tiempo por periodo y las 16 insignias |
 | **Niveles** | Su identidad hacker en grande, de dónde sale su XP periodo a periodo, y la escalera de los 10 niveles |
-| **Álbum** | Sus tarjetas coleccionables: una por cada nivel hacker superado, hasta 10. Las bloqueadas muestran cuánta XP falta; las desbloqueadas se ven en grande y se descargan como imagen para el cuaderno |
+| **Álbum** | Su colección de 20 piezas de equipo hacker (teclado, monitor, servidor, trofeo...), desbloqueadas por tramos iguales de XP a lo largo del año. Las bloqueadas muestran cuánta XP falta; las desbloqueadas se ven en grande y se descargan como imagen para el cuaderno |
 | **Estadísticas** | Evolución por periodo, radar por categoría, nota misión a misión, reparto de desempeños y tabla detallada |
 | **Comparativa** | Su promedio frente al del curso, el grado o toda la academia |
 | **Ranking** | Podio y clasificación con filtros y botón «Ir a mi puesto» |

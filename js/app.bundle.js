@@ -220,6 +220,100 @@ const MOODS = [
     line: 'Tu hacker está desconectado. Entrega una misión para despertarlo.' }
 ];
 
+/* ------------------------------------------------------------------------
+   Álbum digital: 20 objetos de equipo hacker
+   ------------------------------------------------------------------------
+   Ya no es un retrato por nivel: es una colección de 20 piezas que el
+   estudiante va desbloqueando con su propio avance de XP, sin importar el
+   nivel hacker en el que esté. La primera pieza se entrega de entrada (0 XP)
+   y las 19 restantes se reparten en tramos iguales de XP_MAX / 20, así que
+   la última pieza —el trofeo— llega justo al tope de los 2 400 XP del año.
+   ---------------------------------------------------------------------- */
+const ALBUM_OBJETOS = [
+  { n: 1,  slug: 'usb',       nombre: 'USB de arranque',        icon: 'fa-memory',              color: '#94a3b8',
+    lema: 'Tu primer "Hola, mundo"',
+    desc: 'El primer pendrive de la Academia: aquí guardas tu primer archivo de código.',
+    reto: 'Es tuyo desde el primer día: solo entra a tu panel.' },
+  { n: 2,  slug: 'teclado',   nombre: 'Teclado mecánico',       icon: 'fa-keyboard',            color: '#38bdf8',
+    lema: 'Cada tecla, una decisión',
+    desc: 'Cambias el teclado de siempre por uno mecánico: se nota en la velocidad de tus entregas.',
+    reto: 'Entrega tu primera misión completa para ganártelo.' },
+  { n: 3,  slug: 'mouse',     nombre: 'Mouse de precisión',     icon: 'fa-computer-mouse',      color: '#22d3ee',
+    lema: 'Clics que no fallan',
+    desc: 'Un mouse gamer para moverte rápido entre pestañas, consola y editor.',
+    reto: 'Sigue sumando XP en tus próximas misiones.' },
+  { n: 4,  slug: 'taza',      nombre: 'Taza de código',         icon: 'fa-mug-hot',             color: '#c9803f',
+    lema: 'El combustible del hacker',
+    desc: 'Una taza que nunca se enfría del todo: acompaña las sesiones largas de trabajo.',
+    reto: 'La constancia se paga en XP: sigue entregando.' },
+  { n: 5,  slug: 'bitacora',  nombre: 'Cuaderno de bitácora',   icon: 'fa-book-open',           color: '#34d399',
+    lema: 'Lo que no se anota, se olvida',
+    desc: 'Un cuaderno físico para bocetar ideas antes de que lleguen al teclado.',
+    reto: 'Escribe una bitácora más y estará en tus manos.' },
+  { n: 6,  slug: 'auriculares', nombre: 'Auriculares con micrófono', icon: 'fa-headset',        color: '#a78bfa',
+    lema: 'Silencio para pensar mejor',
+    desc: 'Cancelan el ruido de alrededor: justo lo que hace falta para concentrarte en un taller difícil.',
+    reto: 'Supera un taller de los que se te atragantan.' },
+  { n: 7,  slug: 'lampara',   nombre: 'Lámpara de escritorio',  icon: 'fa-lightbulb',           color: '#fbbf24',
+    lema: 'Luz para las sesiones nocturnas',
+    desc: 'Ilumina tu rincón de trabajo cuando el reto gamificado se alarga.',
+    reto: 'Cierra un periodo sin ninguna misión pendiente.' },
+  { n: 8,  slug: 'monitor',   nombre: 'Segundo monitor',        icon: 'fa-desktop',             color: '#2dd4bf',
+    lema: 'Doble vista, doble avance',
+    desc: 'Editor en una pantalla, documentación en la otra: así trabajan los que ya agarraron ritmo.',
+    reto: 'Encadena varias misiones entregadas a tiempo.' },
+  { n: 9,  slug: 'disco',     nombre: 'Disco duro externo',     icon: 'fa-hard-drive',          color: '#818cf8',
+    lema: 'Nada de tu trabajo se pierde',
+    desc: 'Un respaldo de todos tus proyectos, por si el equipo falla en mal momento.',
+    reto: 'Documenta un error que hayas encontrado y cómo lo resolviste.' },
+  { n: 10, slug: 'router',    nombre: 'Router propio',          icon: 'fa-wifi',                color: '#38bdf8',
+    lema: 'Tu propia red, tus propias reglas',
+    desc: 'Conexión estable para no perderte ni un reto gamificado en vivo.',
+    reto: 'Ayuda a un compañero a terminar su misión pendiente.' },
+  { n: 11, slug: 'webcam',    nombre: 'Webcam HD',              icon: 'fa-camera',              color: '#f472b6',
+    lema: 'Muestra tu trabajo con la cara en alto',
+    desc: 'Lista para grabar tus sustentaciones y presentar tus proyectos en vivo.',
+    reto: 'Presenta una idea propia en la actividad gamificada.' },
+  { n: 12, slug: 'microfono', nombre: 'Micrófono de podcast',   icon: 'fa-microphone',          color: '#e879f9',
+    lema: 'Tu voz también programa',
+    desc: 'Para explicar tu código en voz alta: la mejor forma de encontrar tus propios errores.',
+    reto: 'Explica en tu bitácora el paso a paso de un taller.' },
+  { n: 13, slug: 'gpu',       nombre: 'Tarjeta gráfica',        icon: 'fa-microchip',           color: '#a855f7',
+    lema: 'Más potencia, más proyectos',
+    desc: 'Tu equipo ya aguanta simulaciones y proyectos más ambiciosos.',
+    reto: 'Alcanza un promedio de 9.0 o más en un periodo.' },
+  { n: 14, slug: 'servidor',  nombre: 'Servidor casero',        icon: 'fa-server',              color: '#22d3ee',
+    lema: 'Tu código, siempre en línea',
+    desc: 'Un pequeño servidor para tener tus proyectos disponibles a toda hora.',
+    reto: 'Cierra un periodo entero sin ninguna nota por debajo de 7.0.' },
+  { n: 15, slug: 'impresora3d', nombre: 'Impresora 3D',         icon: 'fa-cube',                color: '#fb923c',
+    lema: 'De la pantalla al mundo real',
+    desc: 'Ya no solo programas: también fabricas piezas para tus propios inventos.',
+    reto: 'Propón y desarrolla una idea original en tu bitácora.' },
+  { n: 16, slug: 'gafasar',   nombre: 'Gafas de realidad aumentada', icon: 'fa-vr-cardboard',   color: '#818cf8',
+    lema: 'Ves capas que otros no ven',
+    desc: 'Superponen datos sobre el mundo real: la vista de quien ya domina el terreno.',
+    reto: 'Mantén dos periodos seguidos por encima de 8.5.' },
+  { n: 17, slug: 'antena',    nombre: 'Antena de largo alcance', icon: 'fa-satellite',          color: '#2dd4bf',
+    lema: 'Tu señal llega más lejos',
+    desc: 'Capta señales de toda la Academia: útil para quien ya piensa en grande.',
+    reto: 'Entra al podio de tu curso en el ranking.' },
+  { n: 18, slug: 'llave',     nombre: 'Llave de seguridad USB', icon: 'fa-key',                 color: '#fbbf24',
+    lema: 'Accesos que solo tú controlas',
+    desc: 'Protege tus cuentas y proyectos como un profesional de la ciberseguridad.',
+    reto: 'Termina el año sin ninguna misión sin entregar.' },
+  { n: 19, slug: 'escudo',    nombre: 'Escudo firewall personal', icon: 'fa-shield-halved',     color: '#f87171',
+    lema: 'Blindaje para tu trabajo',
+    desc: 'Protege todo lo que construiste en el año: buenas prácticas hechas hardware.',
+    reto: 'Cierra el año con un promedio global de 9.0 o más.' },
+  { n: 20, slug: 'trofeo',    nombre: 'Trofeo de la Academia',  icon: 'fa-trophy',              color: '#f59e0b',
+    lema: 'La colección completa',
+    desc: 'Reuniste las veinte piezas: tu equipo de hacker está completo.',
+    reto: 'Sostén tu promedio hasta el último día del año lectivo.' }
+];
+const ALBUM_TOTAL = ALBUM_OBJETOS.length;                          // 20
+const XP_POR_OBJETO = XP_MAX / ALBUM_TOTAL;                        // 120
+
 /* Insignias — todas se deducen de los datos del Panel Docente */
 const BADGES = [
   { key: 'primer-paso',   name: 'Primer Paso',        icon: 'fa-shoe-prints',      color: '#94a3b8', desc: 'Tu primera misión calificada.' },
@@ -318,7 +412,7 @@ const TIPOS_AVISO = [
 /** Cuántos respaldos con fecha se conservan. */
 const MAX_RESPALDOS = 30;
 
-return { APP: APP, SCALE: SCALE, PERIODS: PERIODS, CATEGORIES: CATEGORIES, CAT: CAT, RANKS: RANKS, PERFORMANCE: PERFORMANCE, ERAS: ERAS, XP_PER_POINT: XP_PER_POINT, MAX_LEVEL: MAX_LEVEL, MISIONES_TOTALES: MISIONES_TOTALES, XP_POR_MISION: XP_POR_MISION, XP_MAX: XP_MAX, XP_MAX_PERIODO: XP_MAX_PERIODO, PROMEDIO_META: PROMEDIO_META, XP_META: XP_META, XP_PER_LEVEL: XP_PER_LEVEL, AVATAR_DIR: AVATAR_DIR, NIVEL_DIR: NIVEL_DIR, LEVELS: LEVELS, MOODS: MOODS, BADGES: BADGES, DATA_SOURCES: DATA_SOURCES, VIEWS: VIEWS, VIEWS_DOCENTE: VIEWS_DOCENTE, GRADES: GRADES, GROUPS: GROUPS, GENDERS: GENDERS, DEFAULT_CONFIG: DEFAULT_CONFIG, HEADERS: HEADERS, MISIONES_POR_PERIODO: MISIONES_POR_PERIODO, MISIONES: MISIONES, SEED_ACTIVITIES: SEED_ACTIVITIES, nombreMisionPorDefecto: nombreMisionPorDefecto, TIPOS_AVISO: TIPOS_AVISO, MAX_RESPALDOS: MAX_RESPALDOS };
+return { APP: APP, SCALE: SCALE, PERIODS: PERIODS, CATEGORIES: CATEGORIES, CAT: CAT, RANKS: RANKS, PERFORMANCE: PERFORMANCE, ERAS: ERAS, XP_PER_POINT: XP_PER_POINT, MAX_LEVEL: MAX_LEVEL, MISIONES_TOTALES: MISIONES_TOTALES, XP_POR_MISION: XP_POR_MISION, XP_MAX: XP_MAX, XP_MAX_PERIODO: XP_MAX_PERIODO, PROMEDIO_META: PROMEDIO_META, XP_META: XP_META, XP_PER_LEVEL: XP_PER_LEVEL, AVATAR_DIR: AVATAR_DIR, NIVEL_DIR: NIVEL_DIR, LEVELS: LEVELS, MOODS: MOODS, ALBUM_OBJETOS: ALBUM_OBJETOS, ALBUM_TOTAL: ALBUM_TOTAL, XP_POR_OBJETO: XP_POR_OBJETO, BADGES: BADGES, DATA_SOURCES: DATA_SOURCES, VIEWS: VIEWS, VIEWS_DOCENTE: VIEWS_DOCENTE, GRADES: GRADES, GROUPS: GROUPS, GENDERS: GENDERS, DEFAULT_CONFIG: DEFAULT_CONFIG, HEADERS: HEADERS, MISIONES_POR_PERIODO: MISIONES_POR_PERIODO, MISIONES: MISIONES, SEED_ACTIVITIES: SEED_ACTIVITIES, nombreMisionPorDefecto: nombreMisionPorDefecto, TIPOS_AVISO: TIPOS_AVISO, MAX_RESPALDOS: MAX_RESPALDOS };
 })();
 
 /* ---------- datos.js ---------- */
@@ -1572,7 +1666,7 @@ var __M_motor = (function () {
    pendiente y su peso se redistribuye entre las que sí la tienen.
    ========================================================================== */
 
-const { SCALE, PERIODS, MISIONES, CATEGORIES, CAT, RANKS, PERFORMANCE, ERAS, MOODS, LEVELS, MAX_LEVEL, AVATAR_DIR, NIVEL_DIR, XP_PER_POINT, XP_MAX, XP_MAX_PERIODO, XP_PER_LEVEL, XP_META, MISIONES_TOTALES, PROMEDIO_META, BADGES } = __M_config;
+const { SCALE, PERIODS, MISIONES, CATEGORIES, CAT, RANKS, PERFORMANCE, ERAS, MOODS, LEVELS, MAX_LEVEL, AVATAR_DIR, NIVEL_DIR, XP_PER_POINT, XP_MAX, XP_MAX_PERIODO, XP_PER_LEVEL, XP_META, MISIONES_TOTALES, PROMEDIO_META, BADGES, ALBUM_OBJETOS, XP_POR_OBJETO } = __M_config;
 const { db, nota, actividadesDe, nombreMision, generoIlustracion } = __M_datos;
 /* ------------------------------ escala y textos --------------------------- */
 
@@ -1835,6 +1929,47 @@ function xpNivel(puntos) {
     faltan: tope ? Math.max(0, XP_MAX - puntos) : Math.max(0, XP_PER_LEVEL - enNivel),
     pct: Math.min(1, rango ? enNivel / rango : 1),
     max: XP_MAX
+  };
+}
+
+/* ------------------------------ álbum digital ------------------------------ */
+
+/** XP necesaria para desbloquear la pieza n de la colección (0 para la 1ª). */
+function xpDeObjeto(n) {
+  return (Math.max(1, n) - 1) * XP_POR_OBJETO;
+}
+
+/**
+ * La colección completa del álbum: 20 piezas de equipo hacker, desbloqueadas
+ * según la XP del estudiante — sin importar en qué nivel hacker esté.
+ */
+function coleccionAlbum(st) {
+  const puntos = xp(st.id);
+  let siguiente = null;
+
+  const lista = ALBUM_OBJETOS.map((o) => {
+    const necesaria = xpDeObjeto(o.n);
+    const alcanzado = puntos >= necesaria;
+    const item = Object.assign({}, o, {
+      xpNecesaria: necesaria,
+      faltan: Math.max(0, necesaria - puntos),
+      alcanzado,
+      progreso: alcanzado ? 1 : Math.min(1, necesaria ? puntos / necesaria : 1)
+    });
+    if (!alcanzado && !siguiente) siguiente = item;
+    return item;
+  });
+
+  const logradas = lista.filter((x) => x.alcanzado);
+
+  return {
+    lista,
+    xp: puntos,
+    logradas: logradas.length,
+    total: ALBUM_OBJETOS.length,
+    actual: logradas[logradas.length - 1] || lista[0],
+    siguiente,
+    completo: logradas.length >= ALBUM_OBJETOS.length
   };
 }
 
@@ -2175,6 +2310,7 @@ function perfil(st) {
     nivelInfo: xpNivel(puntos),
     identidad: esc.actual,
     escalera: esc,
+    coleccion: coleccionAlbum(st),
     avatar: esc.actual.avatar,
     titulo: esc.actual.nombre,
     lema: esc.actual.lema,
@@ -2203,7 +2339,7 @@ function xpPorPeriodo(sid) {
 }
 
 
-return { redondear: redondear, fmt: fmt, rango: rango, desempeno: desempeno, eraDe: eraDe, notaDe: notaDe, nombreDeMision: nombreDeMision, notaCat: notaCat, promedioPeriodo: promedioPeriodo, promedioGlobal: promedioGlobal, promedioCategoria: promedioCategoria, promedioDe: promedioDe, promedioCatDe: promedioCatDe, periodoActual: periodoActual, actividades: actividades, promedioMision: promedioMision, misiones: misiones, avanceMisiones: avanceMisiones, avanceDeMisiones: avanceDeMisiones, racha: racha, xp: xp, xpDePeriodo: xpDePeriodo, promedioParaNivel: promedioParaNivel, nivel: nivel, xpDeNivel: xpDeNivel, xpNivel: xpNivel, retratoNivel: retratoNivel, avatarNivel: avatarNivel, nombreNivel: nombreNivel, identidad: identidad, avatarDe: avatarDe, escalera: escalera, animo: animo, puntos: puntos, puntosMax: puntosMax, tabla: tabla, companeros: companeros, posicionEn: posicionEn, insignias: insignias, retroalimentacion: retroalimentacion, avisosDe: avisosDe, perfil: perfil, xpPorPeriodo: xpPorPeriodo, CATEGORIES: CATEGORIES, CAT: CAT, PERIODS: PERIODS, MISIONES: MISIONES, SCALE: SCALE, LEVELS: LEVELS, MAX_LEVEL: MAX_LEVEL, XP_PER_LEVEL: XP_PER_LEVEL, XP_MAX: XP_MAX, XP_META: XP_META, PROMEDIO_META: PROMEDIO_META, MISIONES_TOTALES: MISIONES_TOTALES };
+return { redondear: redondear, fmt: fmt, rango: rango, desempeno: desempeno, eraDe: eraDe, notaDe: notaDe, nombreDeMision: nombreDeMision, notaCat: notaCat, promedioPeriodo: promedioPeriodo, promedioGlobal: promedioGlobal, promedioCategoria: promedioCategoria, promedioDe: promedioDe, promedioCatDe: promedioCatDe, periodoActual: periodoActual, actividades: actividades, promedioMision: promedioMision, misiones: misiones, avanceMisiones: avanceMisiones, avanceDeMisiones: avanceDeMisiones, racha: racha, xp: xp, xpDePeriodo: xpDePeriodo, promedioParaNivel: promedioParaNivel, nivel: nivel, xpDeNivel: xpDeNivel, xpNivel: xpNivel, xpDeObjeto: xpDeObjeto, coleccionAlbum: coleccionAlbum, retratoNivel: retratoNivel, avatarNivel: avatarNivel, nombreNivel: nombreNivel, identidad: identidad, avatarDe: avatarDe, escalera: escalera, animo: animo, puntos: puntos, puntosMax: puntosMax, tabla: tabla, companeros: companeros, posicionEn: posicionEn, insignias: insignias, retroalimentacion: retroalimentacion, avisosDe: avisosDe, perfil: perfil, xpPorPeriodo: xpPorPeriodo, CATEGORIES: CATEGORIES, CAT: CAT, PERIODS: PERIODS, MISIONES: MISIONES, SCALE: SCALE, LEVELS: LEVELS, MAX_LEVEL: MAX_LEVEL, XP_PER_LEVEL: XP_PER_LEVEL, XP_MAX: XP_MAX, XP_META: XP_META, PROMEDIO_META: PROMEDIO_META, MISIONES_TOTALES: MISIONES_TOTALES };
 })();
 
 /* ---------- portada.js ---------- */
@@ -2737,7 +2873,7 @@ var __M_tarjeta = (function () {
 const { esc, rgb } = __M_ui;
 const { db } = __M_datos;
 const M = __M_motor;
-const { XP_MAX, MAX_LEVEL, CATEGORIES, MISIONES, SCALE } = __M_config;
+const { XP_MAX, MAX_LEVEL, ALBUM_TOTAL, CATEGORIES, MISIONES, SCALE } = __M_config;
 const { nodoAPNG } = __M_exportar;
 
 /* ------------------------------- escarapela ------------------------------- */
@@ -2884,42 +3020,69 @@ function reversoHTML(p) {
 /* ================================= ÁLBUM ==================================== */
 
 /**
- * Una tarjeta coleccionable del álbum: un peldaño de la escalera hacker
- * (`M.escalera(st).lista`), bloqueada o ya desbloqueada. Se muestra igual en
- * el panel del estudiante (su propio álbum) y en el del docente (el de
- * cualquier estudiante del curso), y es lo bastante simple —sin color-mix—
- * para exportarse a PNG con html2canvas sin trucos adicionales.
- * @param {object} lvl  un peldaño de `M.escalera(st).lista`
- * @param {object} st   el estudiante dueño del álbum (nombre y código)
+ * Una tarjeta coleccionable del álbum: una pieza de la colección de equipo
+ * hacker (`M.coleccionAlbum(st).lista`), bloqueada o ya desbloqueada según la
+ * XP del estudiante. Se muestra igual en el panel del estudiante (su propio
+ * álbum) y en el del docente (el de cualquier estudiante del curso), y es lo
+ * bastante simple —sin color-mix— para exportarse a PNG con html2canvas sin
+ * trucos adicionales.
+ * @param {object} o   una pieza de `M.coleccionAlbum(st).lista`
+ * @param {object} st  el estudiante dueño del álbum (nombre y código)
  */
-function tarjetaAlbumHTML(lvl, st, opciones = {}) {
+function tarjetaAlbumHTML(o, st, opciones = {}) {
   const idAttr = opciones.id ? ` id="${esc(opciones.id)}"` : '';
   const pie = `
     <footer class="album-carta__pie">
       <span class="album-carta__estudiante">${esc(st.name)}</span>
       <span class="album-carta__codigo">${esc(st.code)}</span>
     </footer>`;
-  if (!lvl.alcanzado) {
+  if (!o.alcanzado) {
     return `
     <article class="album-carta album-carta--bloqueada"${idAttr}>
       <div class="album-carta__candado"><i class="fa-solid fa-lock"></i></div>
-      <p class="album-carta__pista">Nivel ${lvl.n} · faltan ${lvl.faltan} XP</p>
+      <p class="album-carta__pista">Pieza ${o.n} · faltan ${o.faltan} XP</p>
       ${pie}
     </article>`;
   }
   return `
-  <article class="album-carta"${idAttr} style="--c:${lvl.color};--c-rgb:${rgb(lvl.color)}">
+  <article class="album-carta"${idAttr} style="--c:${o.color};--c-rgb:${rgb(o.color)}">
     <div class="album-carta__trama"></div>
-    <span class="album-carta__num">Nv. ${String(lvl.n).padStart(2, '0')} / ${MAX_LEVEL}</span>
-    <div class="album-carta__retrato">
-      <img src="${esc(lvl.retrato)}" alt="Nivel ${lvl.n}: ${esc(lvl.nombre)}">
+    <span class="album-carta__num">Pieza ${String(o.n).padStart(2, '0')} / ${ALBUM_TOTAL}</span>
+    <div class="album-carta__retrato album-carta__retrato--icono">
+      <i class="fa-solid ${esc(o.icon)}"></i>
     </div>
     <div class="album-carta__info">
-      <h3 class="album-carta__nombre">${esc(lvl.nombre)}</h3>
-      <p class="album-carta__lema">${esc(lvl.lema)}</p>
-      <p class="album-carta__recompensa"><i class="fa-solid fa-gift"></i> ${esc(lvl.desc)}</p>
+      <h3 class="album-carta__nombre">${esc(o.nombre)}</h3>
+      <p class="album-carta__lema">${esc(o.lema)}</p>
+      <p class="album-carta__recompensa"><i class="fa-solid fa-gift"></i> ${esc(o.desc)}</p>
     </div>
     ${pie}
+  </article>`;
+}
+
+/**
+ * Vista de catálogo de una pieza del álbum: no depende de ningún estudiante,
+ * así el docente puede ver la colección completa de las 20 piezas —qué son y
+ * cuánta XP piden— aunque todavía nadie la haya desbloqueado por completo.
+ * @param {object} o  un objeto de `ALBUM_OBJETOS`, con `xpNecesaria` ya resuelta
+ */
+function tarjetaAlbumCatalogoHTML(o) {
+  return `
+  <article class="album-carta" style="--c:${o.color};--c-rgb:${rgb(o.color)}">
+    <div class="album-carta__trama"></div>
+    <span class="album-carta__num">Pieza ${String(o.n).padStart(2, '0')} / ${ALBUM_TOTAL}</span>
+    <div class="album-carta__retrato album-carta__retrato--icono">
+      <i class="fa-solid ${esc(o.icon)}"></i>
+    </div>
+    <div class="album-carta__info">
+      <h3 class="album-carta__nombre">${esc(o.nombre)}</h3>
+      <p class="album-carta__lema">${esc(o.lema)}</p>
+      <p class="album-carta__recompensa"><i class="fa-solid fa-gift"></i> ${esc(o.desc)}</p>
+    </div>
+    <footer class="album-carta__pie">
+      <span class="album-carta__estudiante">XP para desbloquear</span>
+      <span class="album-carta__codigo">${o.n === 1 ? '0 XP' : o.xpNecesaria + ' XP'}</span>
+    </footer>
   </article>`;
 }
 
@@ -3108,22 +3271,24 @@ function boletinHTML(p, periodo, opciones = {}) {
   </article>`;
 }
 
-return { textoQR: textoQR, textoDatos: textoDatos, pintarQREn: pintarQREn, escarapelaHTML: escarapelaHTML, reversoHTML: reversoHTML, tarjetaAlbumHTML: tarjetaAlbumHTML, boletinHTML: boletinHTML, nodoAPNG: nodoAPNG };
+return { textoQR: textoQR, textoDatos: textoDatos, pintarQREn: pintarQREn, escarapelaHTML: escarapelaHTML, reversoHTML: reversoHTML, tarjetaAlbumHTML: tarjetaAlbumHTML, tarjetaAlbumCatalogoHTML: tarjetaAlbumCatalogoHTML, boletinHTML: boletinHTML, nodoAPNG: nodoAPNG };
 })();
 
 /* ---------- vistas/album.js ---------- */
 var __M_vistas_album = (function () {
 /* ============================================================================
-   vistas/album.js — El álbum del estudiante: 10 tarjetas para coleccionar
+   vistas/album.js — El álbum del estudiante: 20 piezas de equipo hacker
    ----------------------------------------------------------------------------
-   Cada tarjeta es un peldaño de la escalera hacker. Se desbloquea igual que
-   un nivel (M.escalera) y, una vez desbloqueada, se puede ver en grande y
-   descargar como imagen para el cuaderno.
+   Cada tramo de XP que avanzas te regala una pieza para tu equipo hacker —no
+   es un retrato de nivel, es una colección propia (M.coleccionAlbum) que
+   crece con tu avance real, sin importar en qué nivel estés. Una vez
+   desbloqueada, la pieza se puede ver en grande y descargar como imagen para
+   el cuaderno.
    ========================================================================== */
 
 const { $, $$, el, modal, toast, animarBarras, descargar } = __M_ui;
 const T = __M_tarjeta;
-const { MAX_LEVEL } = __M_config;
+const { ALBUM_TOTAL } = __M_config;
 function verGrande(x, st) {
   const cuerpo = el('div', { class: 'album-grande' },
     el('div', { class: 'album-grande__tarjeta', html: T.tarjetaAlbumHTML(x, st, { id: 'album-carta-grande' }) }),
@@ -3139,8 +3304,8 @@ function verGrande(x, st) {
           boton.disabled = true;
           try {
             const nodo = document.getElementById('album-carta-grande');
-            descargar(await T.nodoAPNG(nodo, 3), 'album-nivel-' + x.n + '-' + x.slug + '.png');
-            toast('Tarjeta descargada', 'album-nivel-' + x.n + '-' + x.slug + '.png', 'ok');
+            descargar(await T.nodoAPNG(nodo, 3), 'album-pieza-' + x.n + '-' + x.slug + '.png');
+            toast('Tarjeta descargada', 'album-pieza-' + x.n + '-' + x.slug + '.png', 'ok');
           } catch (err) {
             toast('No se pudo generar la imagen', String(err.message || err), 'err');
           } finally { boton.disabled = false; }
@@ -3149,7 +3314,7 @@ function verGrande(x, st) {
     ) : null);
 
   modal({
-    titulo: 'Nivel ' + x.n + ' · ' + x.nombre,
+    titulo: 'Pieza ' + x.n + ' · ' + x.nombre,
     subtitulo: x.alcanzado ? 'Tarjeta coleccionada' : 'Todavía bloqueada',
     ancho: '420px',
     cuerpo
@@ -3157,14 +3322,14 @@ function verGrande(x, st) {
 }
 
 function render(p, cont) {
-  const lista = p.escalera.lista;
+  const lista = p.coleccion.lista;
   const logradas = lista.filter((x) => x.alcanzado).length;
 
   cont.innerHTML = `
   <div class="cab-vista">
     <div>
-      <h1 class="cab-vista__t"><i class="fa-solid fa-images"></i> Álbum de tarjetas</h1>
-      <p class="cab-vista__s">Cada nivel que superas te regala una tarjeta para tu cuaderno.
+      <h1 class="cab-vista__t"><i class="fa-solid fa-images"></i> Álbum de equipo hacker</h1>
+      <p class="cab-vista__s">Cada tramo de XP que avanzas te regala una pieza para tu equipo.
         Tócala para verla en grande y descargarla.</p>
     </div>
     <div class="cab-vista__acciones">
@@ -3174,8 +3339,8 @@ function render(p, cont) {
 
   <section class="tarjeta">
     <div class="album-resumen no-print">
-      <span class="album-resumen__marca"><b>${logradas}</b> / ${MAX_LEVEL} tarjetas coleccionadas</span>
-      <span class="barra"><i class="barra__val" data-anim-barra="${(logradas / MAX_LEVEL * 100).toFixed(1)}"></i></span>
+      <span class="album-resumen__marca"><b>${logradas}</b> / ${ALBUM_TOTAL} piezas coleccionadas</span>
+      <span class="barra"><i class="barra__val" data-anim-barra="${(logradas / ALBUM_TOTAL * 100).toFixed(1)}"></i></span>
     </div>
     <div class="album-rejilla">
       ${lista.map((x) => `<div data-n="${x.n}">${T.tarjetaAlbumHTML(x, p.st)}</div>`).join('')}
@@ -3190,8 +3355,6 @@ function render(p, cont) {
   $$('[data-n]', cont).forEach((n) => n.addEventListener('click', () => {
     verGrande(lista.find((x) => x.n === Number(n.dataset.n)), p.st);
   }));
-
-  $$('img', cont).forEach((img) => img.addEventListener('error', () => { img.style.visibility = 'hidden'; }));
 }
 
 return { render: render };
