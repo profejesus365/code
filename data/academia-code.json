@@ -1,0 +1,1660 @@
+{
+ "version": 2,
+ "config": {
+  "institution": "I.E. Nacional Agustín Codazzi",
+  "teacher": "Mgtr. Jesús Álvarez Sáez",
+  "subject": "Lenguaje",
+  "year": "2026",
+  "logo": "CODE",
+  "weights": {
+   "taller": 25,
+   "xp": 25,
+   "bit1": 25,
+   "bit2": 25
+  }
+ },
+ "students": [
+  {
+   "id": "st_1bdrp7cvfth",
+   "code": "40101",
+   "name": "Liam David Alvarez Navarro",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_jjdrrjfvfth",
+   "code": "40102",
+   "name": "Valery Sofia Arboleda Suarez",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_gzdjwb3vfth",
+   "code": "40103",
+   "name": "Angel Eduardo Avila Parra",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_zxggt5tvfth",
+   "code": "40104",
+   "name": "Sara Sofia Baquero Obredor",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_olkq6vuvfth",
+   "code": "40105",
+   "name": "Samantha Saireth Beleno Suarez",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_bgkryvyvfth",
+   "code": "40106",
+   "name": "Emiliano Blanco Martinez",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_ays21h1vfth",
+   "code": "40107",
+   "name": "Mariana Andrea Dangond Barrera",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_ipbp9vivfth",
+   "code": "40108",
+   "name": "Briana Salome Diaz Ramirez",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_8o92qzzvfth",
+   "code": "40109",
+   "name": "Isis Azeneth Garcia Leiva",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_xtss1b7vfth",
+   "code": "40110",
+   "name": "Pedro Pablo Garzon Caballero",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_2503oehvfth",
+   "code": "40111",
+   "name": "Antonella Grajales Arias",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_rtgez5cvfth",
+   "code": "40112",
+   "name": "Yoell David Iglesias Garay",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_t9xzhdhvfth",
+   "code": "40113",
+   "name": "Dilan Andres Leiva Medina",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_2eax1ufvfth",
+   "code": "40114",
+   "name": "Jose David Lozano Mosquera",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_qniq964vfth",
+   "code": "40115",
+   "name": "Marianys Isabel Negrete Trespalacio",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_68jmgcwvfth",
+   "code": "40116",
+   "name": "Sterling Jaziel Nieto Novoa",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_x0d4wkevfth",
+   "code": "40117",
+   "name": "Alejandra Lucia Palmera Ochoa",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_xxxfypxvfth",
+   "code": "40118",
+   "name": "Luisa Fernanda Pinedo Franco",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_7gk0s9fvfth",
+   "code": "40119",
+   "name": "Victor Manuel Puentes Navarro",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_g0ls2kuvfth",
+   "code": "40120",
+   "name": "Antonella Sofia Reyes Ramos",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_gaccvs4vfth",
+   "code": "40121",
+   "name": "Geronimo Rincon Caicedo",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_8864c52vfth",
+   "code": "40122",
+   "name": "Jose Styven Rivera Arias",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_tey5lzvvfth",
+   "code": "40123",
+   "name": "Maria Salome Rodriguez Bustos",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_zj105ehvfth",
+   "code": "40124",
+   "name": "Abran David Romero Montano",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_l9zi1kqvfth",
+   "code": "40125",
+   "name": "Jair Andres Toquica Sierra",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_vefesoivfth",
+   "code": "40126",
+   "name": "Valery Camila Trespalacios Jaime",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_4khc9fevfth",
+   "code": "40127",
+   "name": "Sara Sofia Trujillo Galvis",
+   "grade": "Cuarto",
+   "group": "401",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:51:18.485Z"
+  },
+  {
+   "id": "st_cf4gd43wcza",
+   "code": "40201",
+   "name": "Nathaly Alvarado Quintero",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_hegcryawcza",
+   "code": "40202",
+   "name": "Sahara Sofia Alvarez Contreras",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_6pgg9pvwcza",
+   "code": "40203",
+   "name": "Carlos Eduardo Capera Grisales",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_zp2it17wcza",
+   "code": "40204",
+   "name": "Maria Alejandra Carcamo Leon",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_6yplpkrwcza",
+   "code": "40205",
+   "name": "Josue Cervantes Clavijo",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_wrkry7zwcza",
+   "code": "40206",
+   "name": "Lauren Mishell Chinchilla Ramirez",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_rpz6r8awcza",
+   "code": "40207",
+   "name": "Jesus Manuel Colmenares Yepez",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_97vptxewcza",
+   "code": "40208",
+   "name": "Orianis Florez Leon",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_k8r9za4wcza",
+   "code": "40209",
+   "name": "Maria Celeste Guerra Zapata",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_mgacdxdwcza",
+   "code": "40210",
+   "name": "Emily Saireth Gutierrez Mora",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_e175itmwcza",
+   "code": "40211",
+   "name": "Jorge Armando Hernandez Maestre",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_a3bgrkdwcza",
+   "code": "40212",
+   "name": "Solangel Ibarra Ariza",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_39kxw74wcza",
+   "code": "40213",
+   "name": "Maria Angel Jimenez Lopez",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_9vg6cgxwcza",
+   "code": "40214",
+   "name": "Adriana Lucia Julio Charris",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_4x21gi5wcza",
+   "code": "40215",
+   "name": "Mauren Leandra Manosalva Vega",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_qnalesbwcza",
+   "code": "40216",
+   "name": "Thiago Mattia Martinez Monroy",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_ud6ce66wcza",
+   "code": "40217",
+   "name": "Marcelo Jose Medina Pinto",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_i0xqu4qwcza",
+   "code": "40218",
+   "name": "Samuel Mejia Rodriguez",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_biyfq7zwcza",
+   "code": "40219",
+   "name": "Vvaleria Sofia Pabon Bermudez",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_uex4w2zwcza",
+   "code": "40220",
+   "name": "Valery Sofia Perales Mora",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_wbqo5iwwcza",
+   "code": "40221",
+   "name": "Dylan Daniel Polo Giraldo",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_wvfpjqvwcza",
+   "code": "40222",
+   "name": "Emelkin Manuel Puerta Cervantes",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_fc312u4wcza",
+   "code": "40223",
+   "name": "Arianna Nicolle Rodriguez Gonzalez",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_xd3pc19wcza",
+   "code": "40224",
+   "name": "Jhairis Sofia Rosado Hoyos",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_wulbjgowcza",
+   "code": "40225",
+   "name": "Yesmith Andres Saurit Ramos",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_qq7iltjwcza",
+   "code": "40226",
+   "name": "Mariangel Toquica Lopez",
+   "grade": "Cuarto",
+   "group": "402",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:01.462Z"
+  },
+  {
+   "id": "st_9pdozyjxkae",
+   "code": "30101",
+   "name": "Luisa Fernanda Anaya Daza",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.590Z"
+  },
+  {
+   "id": "st_dge9ba2xkaf",
+   "code": "30102",
+   "name": "Maria Victoria Angarita Lizcano",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_lokeq3bxkaf",
+   "code": "30103",
+   "name": "Juan Andres Arias Urbay",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_0muzf3jxkaf",
+   "code": "30104",
+   "name": "Shairat Sofia Atencio Coronado",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_pb5qlnmxkaf",
+   "code": "30105",
+   "name": "Yesid Andres Ballesteros De La Hoz",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_p9xqlt2xkaf",
+   "code": "30106",
+   "name": "Jose Andres Blandon Banos",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_qtkq2ynxkaf",
+   "code": "30107",
+   "name": "Adrian Matias Cabrera Quintero",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_npw9wxzxkaf",
+   "code": "30108",
+   "name": "Thiago Andres Carcamo Pino",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_aybb36bxkaf",
+   "code": "30109",
+   "name": "Alexis Kaleth Chona Bohorquez",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_waa83afxkaf",
+   "code": "30110",
+   "name": "Keylin Maria Criado Carrascal",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_3pvav7ixkaf",
+   "code": "30111",
+   "name": "Gabriela Isabel De La Cruz Gutierrez",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_93tbdxhxkaf",
+   "code": "30112",
+   "name": "Gabriela Isabel De La Cruz Gutierrez",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_7ypjicexkaf",
+   "code": "30113",
+   "name": "Ronald Andres Hernandez Maestre",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_erinojfxkaf",
+   "code": "30114",
+   "name": "Santhiago Liñán Ramirez",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_aa40bh8xkaf",
+   "code": "30115",
+   "name": "Cristian Reinaldo Martelo Benites",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_kv7n6i5xkaf",
+   "code": "30116",
+   "name": "Danna Isabella Martinez Olarte",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_w7jyidqxkaf",
+   "code": "30117",
+   "name": "Kylie Elianis Maza Waltero",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_vmvxmjxxkaf",
+   "code": "30118",
+   "name": "David Santiago Mejia Rodriguez",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_pfikeesxkaf",
+   "code": "30119",
+   "name": "Adrian David Mendoza Duran",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_oiatx9kxkaf",
+   "code": "30120",
+   "name": "Santiago David Mengual Torres",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_aiz5w68xkaf",
+   "code": "30121",
+   "name": "Maximo Jose Murcia Rojas",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_1wj9z0xxkaf",
+   "code": "30122",
+   "name": "Eiker Santiago Ortiz Grisales",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_42zpd9uxkaf",
+   "code": "30123",
+   "name": "Maximiliano Pajaro Barragan",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_37uqdbjxkaf",
+   "code": "30124",
+   "name": "Jhon Carlos Pallares Fuentes",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_ic07j8txkaf",
+   "code": "30125",
+   "name": "Jose Alejandro Palmera Ochoa",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_9vtpxf8xkaf",
+   "code": "30126",
+   "name": "Sharoll Dayana Rangel Loperena",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_u8u0efrxkaf",
+   "code": "30127",
+   "name": "Alan David Rodriguez Bustos",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_lgs5bbxxkaf",
+   "code": "30128",
+   "name": "Gihan Zaid Rojas Galvan",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_tudlq9rxkaf",
+   "code": "30129",
+   "name": "Valery Sofia Ruiz Saurit",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_tyxfwdxxkaf",
+   "code": "30130",
+   "name": "Zharey Sofia Torres Avila",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_nvtv8l1xkaf",
+   "code": "30131",
+   "name": "Emily Mishell Torres Olguin",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "F",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  },
+  {
+   "id": "st_x1c2jz4xkaf",
+   "code": "30132",
+   "name": "Adrian Moises Vasquez Bolano",
+   "grade": "Tercero",
+   "group": "301",
+   "gender": "M",
+   "avatar": null,
+   "createdAt": "2026-09-11T01:52:57.591Z"
+  }
+ ],
+ "activities": {
+  "1": [
+   {
+    "id": "ac_ojdf17ssgcr",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 1,
+    "mision": 1
+   },
+   {
+    "id": "ac_s2ysd15sgcr",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 1,
+    "mision": 1
+   },
+   {
+    "id": "ac_4e05qd3sgcr",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 1,
+    "mision": 1
+   },
+   {
+    "id": "ac_2julac1sgcr",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 1,
+    "mision": 1
+   },
+   {
+    "id": "ac_29an6fpsgcr",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 1,
+    "mision": 2
+   },
+   {
+    "id": "ac_uq80cqusgcr",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 1,
+    "mision": 2
+   },
+   {
+    "id": "ac_jxvr9tqsgcr",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 1,
+    "mision": 2
+   },
+   {
+    "id": "ac_z88dyrcsgcr",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 1,
+    "mision": 2
+   },
+   {
+    "id": "ac_t7kch0zsgcr",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 1,
+    "mision": 3
+   },
+   {
+    "id": "ac_k6m85a0sgcr",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 1,
+    "mision": 3
+   },
+   {
+    "id": "ac_0tgt7d5sgcr",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 1,
+    "mision": 3
+   },
+   {
+    "id": "ac_bxie3cnsgcr",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 1,
+    "mision": 3
+   },
+   {
+    "id": "ac_34ghq4isgcr",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 1,
+    "mision": 4
+   },
+   {
+    "id": "ac_kumxjvasgcr",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 1,
+    "mision": 4
+   },
+   {
+    "id": "ac_pxnn5yosgcr",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 1,
+    "mision": 4
+   },
+   {
+    "id": "ac_0ipwceysgcr",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 1,
+    "mision": 4
+   },
+   {
+    "id": "ac_85bpceosgcr",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 1,
+    "mision": 5
+   },
+   {
+    "id": "ac_vn7pah5sgcr",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 1,
+    "mision": 5
+   },
+   {
+    "id": "ac_zjm7jc3sgcr",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 1,
+    "mision": 5
+   },
+   {
+    "id": "ac_rnbij3dsgcr",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 1,
+    "mision": 5
+   },
+   {
+    "id": "ac_bvc5ay9sgcr",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 1,
+    "mision": 6
+   },
+   {
+    "id": "ac_s20vyolsgcr",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 1,
+    "mision": 6
+   },
+   {
+    "id": "ac_ongh2q6sgcr",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 1,
+    "mision": 6
+   },
+   {
+    "id": "ac_4e5cukmsgcr",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 1,
+    "mision": 6
+   }
+  ],
+  "2": [
+   {
+    "id": "ac_65iizx8sgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 2,
+    "mision": 1
+   },
+   {
+    "id": "ac_tfsjvnosgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 2,
+    "mision": 1
+   },
+   {
+    "id": "ac_r6mwh1xsgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 2,
+    "mision": 1
+   },
+   {
+    "id": "ac_p5cz3ehsgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 2,
+    "mision": 1
+   },
+   {
+    "id": "ac_t6mrss6sgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 2,
+    "mision": 2
+   },
+   {
+    "id": "ac_prn4fxfsgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 2,
+    "mision": 2
+   },
+   {
+    "id": "ac_q9w4o63sgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 2,
+    "mision": 2
+   },
+   {
+    "id": "ac_x09g5ybsgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 2,
+    "mision": 2
+   },
+   {
+    "id": "ac_cszakl6sgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 2,
+    "mision": 3
+   },
+   {
+    "id": "ac_oj4024msgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 2,
+    "mision": 3
+   },
+   {
+    "id": "ac_3ug5j0esgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 2,
+    "mision": 3
+   },
+   {
+    "id": "ac_98i7c0ssgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 2,
+    "mision": 3
+   },
+   {
+    "id": "ac_utwbpbesgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 2,
+    "mision": 4
+   },
+   {
+    "id": "ac_4by58vssgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 2,
+    "mision": 4
+   },
+   {
+    "id": "ac_u8gf6t1sgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 2,
+    "mision": 4
+   },
+   {
+    "id": "ac_70ppykhsgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 2,
+    "mision": 4
+   },
+   {
+    "id": "ac_emkib2vsgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 2,
+    "mision": 5
+   },
+   {
+    "id": "ac_a91dv4xsgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 2,
+    "mision": 5
+   },
+   {
+    "id": "ac_wj202ezsgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 2,
+    "mision": 5
+   },
+   {
+    "id": "ac_a4fz09isgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 2,
+    "mision": 5
+   },
+   {
+    "id": "ac_xi55sy7sgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 2,
+    "mision": 6
+   },
+   {
+    "id": "ac_3sofgnksgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 2,
+    "mision": 6
+   },
+   {
+    "id": "ac_fjm8diusgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 2,
+    "mision": 6
+   },
+   {
+    "id": "ac_poio3s4sgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 2,
+    "mision": 6
+   }
+  ],
+  "3": [
+   {
+    "id": "ac_mg3ktgjsgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 3,
+    "mision": 1
+   },
+   {
+    "id": "ac_l4pjwz0sgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 3,
+    "mision": 1
+   },
+   {
+    "id": "ac_y6w045fsgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 3,
+    "mision": 1
+   },
+   {
+    "id": "ac_gavmlhcsgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 3,
+    "mision": 1
+   },
+   {
+    "id": "ac_yidu07wsgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 3,
+    "mision": 2
+   },
+   {
+    "id": "ac_p579blnsgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 3,
+    "mision": 2
+   },
+   {
+    "id": "ac_r4mu5r7sgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 3,
+    "mision": 2
+   },
+   {
+    "id": "ac_mdub0rysgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 3,
+    "mision": 2
+   },
+   {
+    "id": "ac_ol830a4sgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 3,
+    "mision": 3
+   },
+   {
+    "id": "ac_k0mk9vhsgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 3,
+    "mision": 3
+   },
+   {
+    "id": "ac_mfm9w2psgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 3,
+    "mision": 3
+   },
+   {
+    "id": "ac_hs7052wsgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 3,
+    "mision": 3
+   },
+   {
+    "id": "ac_0frtihksgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 3,
+    "mision": 4
+   },
+   {
+    "id": "ac_rtuk64psgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 3,
+    "mision": 4
+   },
+   {
+    "id": "ac_z0fvs4usgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 3,
+    "mision": 4
+   },
+   {
+    "id": "ac_mwp5nfasgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 3,
+    "mision": 4
+   },
+   {
+    "id": "ac_yojfz7nsgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 3,
+    "mision": 5
+   },
+   {
+    "id": "ac_4cvwixxsgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 3,
+    "mision": 5
+   },
+   {
+    "id": "ac_edt5dp9sgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 3,
+    "mision": 5
+   },
+   {
+    "id": "ac_9o2wj6zsgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 3,
+    "mision": 5
+   },
+   {
+    "id": "ac_96lvxm4sgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 3,
+    "mision": 6
+   },
+   {
+    "id": "ac_5lg36iksgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 3,
+    "mision": 6
+   },
+   {
+    "id": "ac_0vyhf06sgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 3,
+    "mision": 6
+   },
+   {
+    "id": "ac_7yj07bdsgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 3,
+    "mision": 6
+   }
+  ],
+  "4": [
+   {
+    "id": "ac_qnx2b5gsgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 4,
+    "mision": 1
+   },
+   {
+    "id": "ac_mostf9dsgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 4,
+    "mision": 1
+   },
+   {
+    "id": "ac_quviddisgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 4,
+    "mision": 1
+   },
+   {
+    "id": "ac_ol43fjesgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 4,
+    "mision": 1
+   },
+   {
+    "id": "ac_8z6my8rsgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 4,
+    "mision": 2
+   },
+   {
+    "id": "ac_dycu454sgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 4,
+    "mision": 2
+   },
+   {
+    "id": "ac_c217xxpsgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 4,
+    "mision": 2
+   },
+   {
+    "id": "ac_lq00d82sgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 4,
+    "mision": 2
+   },
+   {
+    "id": "ac_wqtkaf3sgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 4,
+    "mision": 3
+   },
+   {
+    "id": "ac_rm5oew5sgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 4,
+    "mision": 3
+   },
+   {
+    "id": "ac_gfhd5ymsgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 4,
+    "mision": 3
+   },
+   {
+    "id": "ac_kc94mrksgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 4,
+    "mision": 3
+   },
+   {
+    "id": "ac_xvnujj0sgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 4,
+    "mision": 4
+   },
+   {
+    "id": "ac_0bbve9jsgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 4,
+    "mision": 4
+   },
+   {
+    "id": "ac_g3og3q7sgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 4,
+    "mision": 4
+   },
+   {
+    "id": "ac_487mzk7sgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 4,
+    "mision": 4
+   },
+   {
+    "id": "ac_jvrmqz0sgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 4,
+    "mision": 5
+   },
+   {
+    "id": "ac_u7mypl2sgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 4,
+    "mision": 5
+   },
+   {
+    "id": "ac_l65kgizsgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 4,
+    "mision": 5
+   },
+   {
+    "id": "ac_0nvushisgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 4,
+    "mision": 5
+   },
+   {
+    "id": "ac_evfh3wzsgcs",
+    "cat": "taller",
+    "name": "Taller",
+    "period": 4,
+    "mision": 6
+   },
+   {
+    "id": "ac_z0nail3sgcs",
+    "cat": "xp",
+    "name": "Actividad Gamificada",
+    "period": 4,
+    "mision": 6
+   },
+   {
+    "id": "ac_9sczttzsgcs",
+    "cat": "bit1",
+    "name": "Bitácora 1",
+    "period": 4,
+    "mision": 6
+   },
+   {
+    "id": "ac_9frk9y0sgcs",
+    "cat": "bit2",
+    "name": "Bitácora 2",
+    "period": 4,
+    "mision": 6
+   }
+  ]
+ },
+ "missions": {
+  "1": [
+   {
+    "n": 1,
+    "name": "Misión 1"
+   },
+   {
+    "n": 2,
+    "name": "Misión 2"
+   },
+   {
+    "n": 3,
+    "name": "Misión 3"
+   },
+   {
+    "n": 4,
+    "name": "Misión 4"
+   },
+   {
+    "n": 5,
+    "name": "Misión 5"
+   },
+   {
+    "n": 6,
+    "name": "Misión 6"
+   }
+  ],
+  "2": [
+   {
+    "n": 1,
+    "name": "Misión 1"
+   },
+   {
+    "n": 2,
+    "name": "Misión 2"
+   },
+   {
+    "n": 3,
+    "name": "Misión 3"
+   },
+   {
+    "n": 4,
+    "name": "Misión 4"
+   },
+   {
+    "n": 5,
+    "name": "Misión 5"
+   },
+   {
+    "n": 6,
+    "name": "Misión 6"
+   }
+  ],
+  "3": [
+   {
+    "n": 1,
+    "name": "Misión 1"
+   },
+   {
+    "n": 2,
+    "name": "Misión 2"
+   },
+   {
+    "n": 3,
+    "name": "Misión 3"
+   },
+   {
+    "n": 4,
+    "name": "Misión 4"
+   },
+   {
+    "n": 5,
+    "name": "Misión 5"
+   },
+   {
+    "n": 6,
+    "name": "Misión 6"
+   }
+  ],
+  "4": [
+   {
+    "n": 1,
+    "name": "Misión 1"
+   },
+   {
+    "n": 2,
+    "name": "Misión 2"
+   },
+   {
+    "n": 3,
+    "name": "Misión 3"
+   },
+   {
+    "n": 4,
+    "name": "Misión 4"
+   },
+   {
+    "n": 5,
+    "name": "Misión 5"
+   },
+   {
+    "n": 6,
+    "name": "Misión 6"
+   }
+  ]
+ },
+ "grades": {},
+ "avisos": [],
+ "createdAt": "2026-09-11T02:04:27.683Z",
+ "savedAt": "2026-09-11T02:04:27.683Z"
+}

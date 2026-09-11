@@ -1,0 +1,200 @@
+/* ============================================================================
+   print.css — Reglas de impresión (boletín, escarapela y álbum en hoja carta)
+   Se carga con media="print": no afecta a la pantalla.
+   ========================================================================== */
+
+@page {
+  size: letter portrait;
+  margin: 14mm 12mm;
+}
+
+html, body {
+  background: #fff !important;
+  color: #0f172a !important;
+}
+
+/* Todo lo que no es contenido imprimible desaparece */
+#carga, #login, #portada, .lateral, .topbar, .pie, .velo, .toasts, .modal,
+.no-print, .pestanas, .filtros, .cab-vista__acciones, .btn, .btn-icono,
+.nav, .lateral__pie, .enlace, .cred-item__lupa, .informes__lista,
+.guardado, .acciones {
+  display: none !important;
+}
+
+/* Excepción: el álbum de un estudiante se abre en una ventana modal (el
+   docente lo ve así desde el curso), y es justo lo que hay que imprimir en
+   ese caso — así que esta, marcada aparte, no se oculta con las demás. */
+.modal.modal--imprimible {
+  display: block !important;
+  position: static !important;
+  background: none !important;
+  backdrop-filter: none !important;
+}
+.modal--imprimible .modal__panel {
+  max-width: none !important; width: 100% !important; max-height: none !important;
+  box-shadow: none !important; border: 0 !important; padding: 0 !important;
+  background: none !important; color: inherit;
+}
+.modal--imprimible .modal__head { display: none !important; }
+.modal--imprimible .modal__cuerpo { padding: 0 !important; overflow: visible !important; }
+
+.app { display: block !important; }
+.cuerpo { display: block !important; }
+.vista { padding: 0 !important; max-width: none !important; }
+
+/* Los paneles pierden sombras y fondos oscuros */
+.tarjeta, .boletin, .hero, .hacker, .kpi, .escarapela {
+  background: #fff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: none !important;
+  break-inside: avoid;
+}
+.tarjeta::before, .hero__aura, .hacker__halo, .escarapela__trama, .rejilla-fondo { display: none !important; }
+
+.tarjeta__head h2, .cab-vista__t, h1, h2, h3, h4 { color: #0f172a !important; }
+p, td, th, dd, li, small, span { color: #334155 !important; }
+
+/* --------------------------------- boletín -------------------------------- */
+
+.boletin {
+  padding: 0 !important;
+  border: 0 !important;
+  break-inside: avoid;
+}
+.boletin__head { border-bottom: 2px solid #0f172a !important; }
+.boletin__logo, .escarapela__logo {
+  background: #0f172a !important;
+  color: #fff !important;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.boletin__valor { color: #0f172a !important; }
+.retro { background: #f1f5f9 !important; border-color: #cbd5e1 !important; }
+.tabla th { color: #475569 !important; border-bottom-color: #cbd5e1 !important; }
+.tabla td { border-bottom-color: #e2e8f0 !important; }
+.tabla tbody tr:hover { background: transparent !important; }
+
+.pill, .chip, .pill--mini {
+  border-color: #cbd5e1 !important;
+  background: #f8fafc !important;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* ------------------------------- escarapela ------------------------------- */
+
+.escarapela-zona { display: block !important; }
+.escarapela-info { display: none !important; }
+.tarjeta3d { perspective: none !important; }
+.tarjeta3d__interior { transform: none !important; }
+.tarjeta3d.is-flip .tarjeta3d__interior { transform: none !important; }
+
+/* Tamaño real de un carnet estudiantil: 53.98 × 85.60 mm (ISO/IEC 7810
+   ID-1). No se usa `zoom` para encogerlo entero: cada pieza (foto, QR,
+   tipografías, espacios) tiene aquí su propio tamaño en milímetros, ya
+   calculado para que quepan completos el código, el curso y el XP — nada
+   se corta, aunque el navegador imprima aspect-ratio distinto que en
+   pantalla. En la rejilla de escarapelas en lote (más abajo) las mismas
+   piezas se reutilizan, solo que la tarjeta llena su propia columna. */
+.escarapela {
+  width: 53.98mm !important;
+  height: 85.6mm !important;
+  aspect-ratio: auto !important;
+  gap: 1.5mm !important;
+  padding: 3mm 3mm 2.5mm !important;
+  margin: 0 auto !important;
+  border: 1px solid #94a3b8 !important;
+  break-inside: avoid;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.escarapela--rev {
+  position: static !important;
+  transform: none !important;
+  margin-top: 4mm !important;
+  backface-visibility: visible !important;
+}
+.escarapela__head { gap: 1.5mm !important; }
+.escarapela__logo { width: 6mm !important; height: 6mm !important; border-radius: 2mm !important; font-size: 5pt !important; }
+.escarapela__inst { font-size: 5.5pt !important; }
+.escarapela__sub { font-size: 4.5pt !important; }
+.escarapela__foto { margin-top: 1mm !important; }
+.escarapela__foto img { width: 15mm !important; height: 15mm !important; border-width: .5mm !important; }
+.escarapela__nivel { padding: .5mm 1.5mm !important; font-size: 4.5pt !important; border-width: .3mm !important; }
+.escarapela__nombre { font-size: 7.5pt !important; }
+.escarapela__titulo { font-size: 4.5pt !important; }
+.escarapela__rango { padding: .8mm 2.5mm !important; gap: 1mm !important; font-size: 4.5pt !important; }
+.escarapela__datos { gap: 1.5mm !important; margin-top: 1mm !important; }
+.escarapela__datos dt { font-size: 3.6pt !important; }
+.escarapela__datos dd {
+  font-size: 5.5pt !important;
+  overflow: hidden !important; text-overflow: ellipsis !important; white-space: nowrap !important;
+}
+.escarapela__barra { height: 1mm !important; }
+.escarapela__pie { gap: 2mm !important; padding-top: 2mm !important; }
+.escarapela__qr {
+  width: 13mm !important; height: 13mm !important; padding: .8mm !important;
+  border-radius: 1.5mm !important; background: #fff !important;
+}
+.escarapela__nivel-txt { gap: .8mm !important; }
+.escarapela__nivel-txt .escarapela__rango { padding: .6mm 2mm !important; font-size: 4pt !important; }
+.escarapela__nivel-txt small { font-size: 3.6pt !important; }
+
+/* ---------------------- lotes del panel del docente ----------------------- */
+
+/* Escarapelas: tres por fila, sin cortar ninguna tarjeta a la mitad. */
+.cred-rejilla {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 6mm !important;
+}
+.cred-item { break-inside: avoid; }
+/* Aquí cada tarjeta llena su propia columna de la rejilla en vez del
+   tamaño fijo de carnet individual de arriba, conservando su proporción. */
+.cred-item .escarapela { width: auto !important; height: auto !important; aspect-ratio: 53.98 / 85.6 !important; }
+
+/* Álbum: cinco tarjetas por fila, así las 10 caben en una sola hoja carta. */
+.album-rejilla {
+  display: grid !important;
+  grid-template-columns: repeat(5, 1fr) !important;
+  gap: 5mm !important;
+}
+.album-carta {
+  min-height: auto !important;
+  background: #fff !important;
+  border-color: #94a3b8 !important;
+  break-inside: avoid;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.album-carta--bloqueada { background: #f1f5f9 !important; }
+.album-carta__trama { display: none !important; }
+.album-carta__info, .album-carta__pie { background: rgba(15, 23, 42, .82) !important; }
+
+/* Informes: un boletín por página. */
+.informes { display: block !important; }
+.informes__hoja { width: 100% !important; }
+.informes-todos { display: block !important; }
+.informes-todos .boletin { break-after: page; }
+.informes-todos .boletin:last-child { break-after: auto; }
+
+/* ------------------------- informe académico en carta --------------------- */
+
+.boletin { max-width: none !important; width: 100% !important; }
+.inf-cab { border-bottom-color: #0f172a !important; }
+.inf-cab__logo { background: #0f172a !important; color: #fff !important; }
+.inf-tabla { font-size: 10.5pt; }
+.inf-tabla th, .inf-tabla td { border-bottom-color: #cbd5e1 !important; }
+.inf-tabla tbody tr:nth-child(even) { background: #f4f6fb !important; }
+.inf-total { background: #eef4fb !important; }
+.inf-retro, .inf-resumen { background: #f6f8fc !important; }
+.inf-nota-final__valor, .inf-nota { color: #0f172a !important; }
+.taller-export { display: none !important; }
+
+/* --------------------------------- gráficas ------------------------------- */
+
+.lienzo { break-inside: avoid; }
+canvas { max-width: 100% !important; height: auto !important; }
+
+a[href]::after { content: '' !important; }

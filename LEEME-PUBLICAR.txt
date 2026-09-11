@@ -1,0 +1,17 @@
+CARPETA PUBLICAR
+================
+
+Esto es la web lista para dos cosas:
+
+  1. Abrirla con doble clic en index.html, sin servidor.
+  2. Subirla tal cual a cualquier hosting (Netlify, GitHub Pages,
+     Hostinger, el servidor del colegio...). Sube TODO el contenido
+     de esta carpeta, no la carpeta en si.
+
+Los datos van congelados dentro de data/base.js en el momento en que
+ejecutaste actualizar-web. Cada vez que cambies notas en el panel del
+docente, vuelve a ejecutarlo y vuelve a subir la carpeta.
+
+OJO: esta version es solo para estudiantes. No incluye el panel del
+docente ni forma de entrar a el; para gestionar el curso usa el
+proyecto original (index.html en la carpeta de arriba).
